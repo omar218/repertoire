@@ -103,7 +103,7 @@ const App = (props) => {
       <h1>Numbers</h1>    
           <div>{listPerson}</div>   
           <div>
-          <button onClick = {confirmDelete}>delete</button>
+          <button onClick = {confirmDelete()}>delete</button>
           </div>       
     </div>
 
